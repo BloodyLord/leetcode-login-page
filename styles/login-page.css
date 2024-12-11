@@ -88,8 +88,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .forgot-password, .sign-up {
