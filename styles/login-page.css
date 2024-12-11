@@ -1,0 +1,97 @@
+.main-div {
+    display: grid;
+    background-color: white;
+    padding: 30px;
+    padding-top: 40px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px rgb(221, 216, 216);
+}
+
+.logo {
+    object-position: center;
+    object-fit: contain;
+}
+
+.logo-div {
+    display: flex;
+    justify-content: center;
+    height: 77px;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.credentials-div {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.email, .password {
+    height: 40px;
+    width: 320px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    border: solid;
+    border-width: 0.8px;
+    border-radius: 3.5px;
+    border-color: rgb(207,216,220);
+
+    font-weight: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(38, 50, 56);
+    transition: border-color 0.4s;
+}
+
+.email:hover, .password:hover {
+    border-color: rgb(31, 31, 31);
+    cursor: text;
+}
+
+.email:focus, .password:focus {
+    border-color: rgb(31, 31, 31);
+    outline: solid;
+    outline-width: 2px;
+    outline-color: rgb(249, 226, 113);
+}
+
+.sign-in-div {
+    margin-bottom: 20px;
+}
+
+.sign-in {
+    width: 100%;
+    height: 40px;
+    
+    border-radius: 3px;
+    border: solid 1px;
+    color: white;
+
+    font-size: 14px;
+    font-family: 'Segoe UI';
+    background-image: linear-gradient(to right, rgb(57,74,82), rgb(81,106,118));
+
+    transition: opacity 0.4s;
+    cursor: pointer;
+}
+
+.sign-in:hover {
+    opacity: 70%;
+}
+
+.sign-in:active {
+    opacity: 100%;
+}
+
+.additional-options-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.forgot-password, .sign-up {
+    font-size: 14px;
+    color: rgb(72, 99, 111);
+    cursor: pointer;
+}
